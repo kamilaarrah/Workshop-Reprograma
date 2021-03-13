@@ -1,0 +1,119 @@
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(254, 153, 193);
+}
+
+body { 
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background: url(../img/capaka11.png);
+    background-size:cover;
+    height: 130vh;
+    display: flex;
+    justify-content:left;
+    align-items:baseline;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo{
+    margin-bottom: 36px;
+}
+
+.botao{
+    background-color: rgb(151, 80, 151);
+    border: rgb(248, 248, 248) solid 3px;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+  
+}
+
+
+.sobre-flex{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    
+}
+
+.sobre-descricao{
+  width: 40%;
+  
+
+}
+
+.sobre-descricao p{
+   margin: 24px;
+   text-align: justify;
+  
+  }
+
+.sobre-habilidades{
+    width: 40%;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.titulo-sobre{
+   margin-bottom: 24px;
+   text-align: center;
+   font-size: 50px;
+}
+
+.titulo-descricao{
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.titulo-habilidades{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.lista{
+    margin-top: 15px;
+}
+
+
+.botao-sobre{
+    background-color: rgb(151, 80, 151);
+    border: rgb(248, 248, 248) solid 3px;
+    color:rgb(255, 254, 255);
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+    
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    color: white;
+    padding-top: 3%;
+}
+
+.redes-links {
+    background-color: rgb(151, 80, 151); 
+    width: 20%;
+    
+}
